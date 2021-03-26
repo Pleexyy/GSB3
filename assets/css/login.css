@@ -1,0 +1,49 @@
+body {
+    background: white;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.col-lg-4 {
+    background-color: #1d1919;
+    border-radius: 7.5px;
+}
+
+fieldset {
+    text-align: center;
+}
+
+p {
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+
+a:link, a:visited {
+    color: #4287f5;
+    text-decoration: none !important;
+}
+
+h1 {
+    color: white;
+    padding-bottom: 4px;
+    position: relative;
+    text-decoration: none;
+    font-family: 'Helvetica', sans-serif !important;
+}
+
+h1::after {
+    background: #4287f5;
+    content: "";
+    position: absolute;
+    bottom: -5;
+    left: 37.5%;
+    height: 3px;
+    width: 25%;
+}
+
+.btn {
+    background-image: #4287f5 !important;
+    font-family: 'Roboto', sans-serif !important;
+    padding-left: 35% !important;
+    padding-right: 35% !important;
+}
